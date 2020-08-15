@@ -37,7 +37,7 @@ public class BeerController {
         //TO DO IMPL
     }
 
-    @DeleteMapping
+    @DeleteMapping("{beerId}")
     @ResponseStatus(HttpStatus.NO_CONTENT )
     public void deleteBeer(@PathVariable("beerId")UUID beerId){
         //TO DO IMPL
